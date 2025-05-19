@@ -13,17 +13,4 @@ server.listen(port, hostname, () => {
   console.log(`Server running at http://${hostname}:${port}/`);
 });
 
-// package.json
-{
-  "name": "simple-node-app",
-  "version": "1.0.0",
-  "description": "A simple Node.js application",
-  "main": "server.js",
-  "scripts": {
-    "start": "node server.js",
-    "test": "node test.js",
-    "build": "echo 'No build required'"
-  },
-  "dependencies": {},
-  "devDependencies": {}
-}
+
